@@ -73,7 +73,7 @@ def main():
 	nor_gate = compute('nor_gate',Gates,inputs)
 
 	def template(inputs, name, data):
-        	print("Logic Gate: {}".format(name[6:].upper()))
+        	print("Logic Gate: {}".format(name[0::].upper()))
         	print("X0\tX1\tX2\tY")
         	toPrint = ["{1}\t{2}\t{3}\t{0}".format(output, *datas) for datas, output in zip(inputs, data)]
         	for i in toPrint:
