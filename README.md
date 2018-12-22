@@ -20,3 +20,10 @@ Neuron fires if ANY of the inputs are 1.
 ###### NOT Logic Gate
 
 Take input as inhibitory function and our threshold is zero.
+
+###### References
+
+https://medium.com/autonomous-agents/how-to-teach-logic-to-your-neuralnetworks-116215c71a49
+https://towardsdatascience.com/emulating-logical-gates-with-a-neural-network-75c229ec4cc9
+https://towardsdatascience.com/neural-representation-of-logic-gates-df044ec922bc
+
